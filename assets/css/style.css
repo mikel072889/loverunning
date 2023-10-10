@@ -311,7 +311,10 @@ hr {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 47px;
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
     }
 
     /* Hero */
@@ -341,6 +344,28 @@ hr {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+    /*Sign-up Page */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        left: 10%;
+        top: 150px;
+    }
+
+    #text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
