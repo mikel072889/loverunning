@@ -204,6 +204,18 @@ hr {
     line-height: 0;
 }
 
+/* Sign-up Page */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background-image: url(../images/signup-image.webp);
+    background-size: cover;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
